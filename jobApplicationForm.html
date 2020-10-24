@@ -1,0 +1,105 @@
+<Doctype html>
+<html>
+<head>
+    <title>Job Application</title>
+</head>
+<body>
+
+<h2>Petco Job Application</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+    <fieldset>
+        <legend>Account</legend>
+        <div>
+            <label>Accound ID:</label>
+            <input type="text" name="acoount id">
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label>Repeat password:</label>
+            <input type="password" name="password">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Personal information</legend>
+        <div>
+            <label>Full name:</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label>Age:</label>
+            <input type="text" name="age">
+        </div>
+        <div>
+            <label>City and State:</label>
+            <input type="text" name="place">
+        </div>
+        <div>
+            <label>ZIP:</label>
+            <input type="text" name="ZIP">
+        </div>
+        <div>
+            <label>Email:</label>
+            <input type="text" name="email">
+        </div>
+        <div>
+            <label>Phone number</label>
+            <input type="text" name="phone">
+        </div>
+        <div>
+            <label>Primary contact by:</label>
+            <select name="contact information">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+            </select>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Quick Questions</legend>
+        <div>
+            <label>Do you love animals</label>
+            <input type="radio" name="love" value="yes">Yes
+            <input type="radio" name="love" value="no">No
+        </div>
+        <div>
+            <label>Do you have experience in taking care of animals</label>
+            <input type="radio" name="experience" value="yes">Yes
+            <input type="radio" name="experience" value="no">No
+        </div>
+        <div>
+            <label>Which animals have you taking care of before? (check all that apply)</label>
+            <ul>
+                <li><input type="checkbox" name="dog" value="dog">Dog</li>
+                <li><input type="checkbox" name="cat" value="cat">Cat</li>
+                <li><input type="checkbox" name="mouse" value="mouse">Mouse</li>
+                <li><input type="checkbox" name="fish" value="fish">Fish</li>
+                <li><input type="checkbox" name="others" value="others">Others</li>
+                <li><input type="checkbox" name="none" value="none">None</li>
+            </ul>
+        </div>
+        <div>
+            <label>What type of position are you looking for? (check all that apply)</label>
+            <ul>
+                <li><input type="checkbox" name="fulltime" value="fulltime">Full time</li>
+                <li><input type="checkbox" name="parttime" value="parttime">Part time</li>
+            </ul>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Personal Statement</legend>
+        <div>
+            <label>Why do you deserve this job?</label><br>
+            <textarea name="deserve" rows="6" cols="60"></textarea>
+        </div>
+    </fieldset>
+
+    <input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
